@@ -1,5 +1,9 @@
 <script setup lang="ts">
-  const { data: posts } = await useAsyncData('blog', () => queryCollection('blog').all())
+  const { data: posts } = await useAsyncData('blog', () => queryCollection('blog_ca').all())
+
+  definePageMeta({
+    layout: 'blog-layout'
+  })
 </script>
 
 <template>
