@@ -7,5 +7,10 @@
         "claim": "fem castells",
         "claim_2": "i parlem en alguerés",
         "claim_3": "t'animes ?"
+    },
+
+    "breadcrumb": {
+        "home": "Inici",
+        "blog": "Blog"
     }
 }

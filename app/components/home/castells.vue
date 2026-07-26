@@ -1,22 +1,10 @@
 <template>
-
-    <div class="container mx-auto  pb-6 pt-18 max-w-[960px]">
-      <section class="grid grid-cols-9 text-lg">
-        <article class="col-start-2 col-span-3 border-b border-neutral-300 ">
-         <ContentRenderer v-if="castells[0]" :value="castells[0]" prose:false class="mdtxt"/>
-        </article>
-
-         <article class="col-start-6 col-span-3 ">
-         <ContentRenderer v-if="castells[1]" :value="castells[1]" prose:false class="mdtxt"/>
-        </article>
-      </section>
-  </div>
-
-   <div class="container mx-auto  pb-12 max-w-[960px] ">
-      <section class="grid grid-cols-9 text-lg">
-        <article class="col-span-3 col-start-2 " >
-          <p>Forman parte de la Colla personas de distintas edades, sexo y orígenes aplicando los valores del mundo casteller: Força, Equilibri, Valor i Seny </p>
-        </article>  
+    <!-- new two cols layout -->
+    <div class="container max-w-240 mx-auto pb-6 pt-16 ">
+        <section class="grid grid-cols-1 md:grid-cols-9 text-lg mx-6 md:mx-0">
+            <article class=" md:col-start-2 col-span-7 lg:col-span-8 colums-1 md:columns-2 md:gap-x-12 lg:gap-x-24">
+                <ContentRenderer v-if="castells[0]" :value="castells[0]" prose:false class="mdtxt"/>
+            </article>
         </section>
     </div>
 </template>
@@ -41,8 +29,8 @@
 
     // on Mounted
     onMounted(() => {
-        console.log('Web Collection:', webCollection.value);
-        console.log('Castells data:', castells.value);
+        // console.log('Web Collection:', webCollection.value);
+        // console.log('Castells data:', castells.value);
     });
 
 
@@ -51,12 +39,17 @@
 <style scoped >
 
    @reference "tailwindcss";
+   @reference "~/assets/css/main.css";
+
+   .mdtxt{
+    @apply text-black
+   }
 
     .mdtxt :deep(h3){
-        @apply font-bold text-2xl pb-4;
+        @apply font-bold text-2xl pb-4 text-black;
     }
 
     .mdtxt :deep(p), p{
-        @apply text-lg/6 font-light pb-4 ;
+        @apply text-lg/6 font-light  ;
     }
 </style>

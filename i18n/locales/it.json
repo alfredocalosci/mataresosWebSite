@@ -7,5 +7,10 @@
        "claim": "facciamo castells",
        "claim_2": "e parliamo in alguerés",
        "claim_3": "vuoi provare ?"
+   },
+
+   "breadcrumb": {
+       "home": "Home",
+       "blog": "Blog"
    }
 }

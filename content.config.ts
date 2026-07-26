@@ -10,7 +10,7 @@ const commonBlogSchema = z.object({
 const commonWebSchema = z.object({
   slug: z.string(),
   description: z.string().max(500),
-  section: z.enum(['home', 'castells', 'colla', 'contacte']),
+  section: z.enum(['home', 'castells', 'assaig', 'colla', 'contacte']),
   order: z.number().min(0)
 });
 

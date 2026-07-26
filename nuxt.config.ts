@@ -10,9 +10,7 @@ export default defineNuxtConfig({
     families: [
       // only resolve this font with the `google` provider
       { name: 'Barlow Semi Condensed', provider: 'google' },
-      { name: 'Crimson Pro', provider: 'google' },
       { name: 'Inconsolata', provider: 'google' },
-
     ]
   },
   i18n: {
