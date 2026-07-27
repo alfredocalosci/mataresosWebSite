@@ -1,10 +1,8 @@
 <script setup lang="ts">
-  import type { Collections } from '@nuxt/content'
-
-  const { locale } = useI18n()
+  const { locale, t } = useI18n()
   const localePath = useLocalePath()
 
-  const blogCollection = computed(() => `blog_${locale.value}` as keyof Collections)
+  const blogCollection = computed(() => `blog_${locale.value}` as 'blog_ca' | 'blog_it')
   const { data: posts } = await useAsyncData(
     'blog',
     () => queryCollection(blogCollection.value).all(),
@@ -19,11 +17,25 @@
 
 <template>
   <div>
-    <p>list of entries</p>
+    <p class = 'italic text-sm'>{{ t('blog_list') }}</p>
+
     <ul>
       <li v-for="post in posts" :key="post.id">
-        <NuxtLink :to="postLink(post)">{{ post.title }}</NuxtLink>
+        <NuxtLink
+          :to="postLink(post)"
+          class="flex justify-between group"
+        >
+        
+        <div>
+         <h3 class="font-bold text-xl group-hover:text-coral-500 transition-colors duration-300"> {{ post.title }}</h3>
+         <p>{{ post.description }}</p>
+        </div>
+
+        <p class="text-sm text-gray-600">{{ formatDate(post.publishedAt, locale) }}</p>
+      
+      </NuxtLink>
       </li>
     </ul>
+
   </div>
 </template>
