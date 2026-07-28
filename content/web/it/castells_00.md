@@ -5,11 +5,17 @@ section: 'castells'
 order: 1
 ---
 
-### Cosa sono i Castells?
-I Castells sono una tradizione catalana che ha più di 300 anni e che ha avuto una grande crescita negli ultimi anni, con più di 100 colles distribuite non solo in Catalogna, ma anche in luoghi così esotici come la Cina, l'Australia, il Cile, l'Argentina o in luoghi più vicini come Londra, Parigi o Bruxelles.
+### Che cosa sono i Castells?
+I Castells sono torri umane costruite e successivamente smontate da un gruppo di persone chiamate Castellers.  
 
-Non si tratta di un'attività qualsiasi, poiché trasmette valori di solidarietà, di impegno individuale e collettivo e soprattutto di integrazione, che permettono di far parte delle colles sia a persone che hanno vissuto tutta la vita in un paese o in una città, sia a persone arrivate dall'immigrazione da altre regioni o paesi, in perfetta armonia.
+Costruire castells è una tradizione catalana nata oltre 300 anni fa che, soprattutto negli ultimi decenni, ha conosciuto un grande ritorno di popolarità. Oggi nel mondo esistono circa 100 colles castelleres, presenti in Catalogna e in altri luoghi, tra cui Cina, Australia, Cile, Londra, Parigi, Bruxelles ed Edimburgo.  
 
-Nella maggior parte dei casi, sono famiglie intere e persone di tutte le età, dai bambini piccoli agli anziani, a far parte di ogni colla.
+Costruire castells non è un'attività qualsiasi. All'interno delle colles vengono trasmessi valori di solidarietà, impegno individuale e collettivo e, soprattutto, integrazione. Questi valori permettono a persone di diversa provenienza, età e cultura di convivere nello stesso gruppo, unite da un obiettivo comune.  
 
-Fanno parte della Colla persone di età, sesso e origini diverse, applicando i valori del mondo casteller: Força, Equilibri, Valor i Seny (Forza, Equilibrio, Valore e Giudizio).
+Nella maggior parte dei casi, ogni colla è composta da famiglie e persone di tutte le età, dai bambini più piccoli fino agli adulti più anziani.  
+
+Ad Alghero, l'attività castellera si unisce alla volontà di mantenere viva la nostra parlata.  
+
+Alghero è l'unica città catalanofona della Sardegna e d’Italia e i Mataresos vogliono proteggere e dare un futuro a questa lingua, un tesoro parlato e conservato qui fin dal XIV secolo.  
+
+Per questo motivo, chi entra a far parte dei Mataresos si impegna a parlare, oppure a imparare con l'aiuto degli altri compagni castellers, l'algherese, che è la lingua ufficiale e veicolare della colla.

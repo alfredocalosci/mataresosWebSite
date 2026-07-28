@@ -31,7 +31,7 @@
     const { locale } = useI18n();
     const webCollection = computed(() => `web_${locale.value}`);
 
-    const { data: assaig } = await useAsyncData('assaig', () => {
+    const { data: assaig } = await useAsyncData(`assaig-${locale.value}`, () => {
         return queryCollection(webCollection.value).where('section', '=', 'assaig').order('order', 'ASC').all();
     }, { watch: [webCollection] });
 </script>
@@ -50,7 +50,7 @@
     }
 
     .mdtxt :deep(h3) {
-        @apply font-bold  text-2xl lg:text-4xl lg:pt-4 pb-2 text-black;
+        @apply font-bold  text-2xl lg:text-3xl lg:pt-4 pb-2 text-black;
     }
 
     .mdtxt :deep(h3)::after {

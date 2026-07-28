@@ -3,12 +3,14 @@
       <div class="container mx-auto py-18">
         <section class="grid grid-cols-1 md:grid-cols-9 text-lg mx-6 md:mx-0 gap-y-6 md:gap-y-12 lg:gap-y-0">
 
-          <img
-            class="md:col-start-2"
-            src="~/assets/img/antxaneta.png"
-            alt="escut"
-          >
-
+          <NuxtLink to="/blog">
+            <img
+              class="md:col-start-2"
+              src="~/assets/img/antxaneta.png"
+              alt="escut"
+            >
+  
+          </NuxtLink>
           <article class="md:col-span-6 lg:col-span-2">
             <ContentRenderer v-if="home[0]" :value="home[0]" prose:false class="mdtxt" />
           </article>
@@ -34,7 +36,7 @@
     const { locale } = useI18n();
     const webCollection = computed(() => `web_${locale.value}`);
 
-    const { data: home } = await useAsyncData('home', () => {
+    const { data: home } = await useAsyncData(`home-${locale.value}`, () => {
         return queryCollection(webCollection.value).where('section', '=', 'home').order('order', 'ASC').all();
     }, { watch: [webCollection] });
 </script>

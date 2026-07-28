@@ -16,7 +16,7 @@
               <p class="text-xl pt-3">{{ $t("home.claim_2") }} <span class="text-coral-500 font-bold lg:text-2xl pr-2">…</span> {{ $t("home.claim_3") }} </p>
             </article>
 
-            <img src="/img/germanor.png" alt="germanor" class="md:col-start-6 md:col-span-3 max-w-10/12 h-auto">
+            <img src="/img/cuatre_germanor_alt_2.png" alt="germanor" class="md:col-start-6 md:col-span-3 max-w-10/12 h-auto">
           </section>
 
         </div>

@@ -5,11 +5,17 @@ section: 'castells'
 order: 1
 ---
 
-### Què són els Castells ?
-Els Castells són una tradició catalana de fa més de 300 anys i han tingut un gran auge en els darrers anys, amb més de 100 colles repartides no només a Catalunya, sinó també en llocs tan exòtics com la Xina, Austràlia, Xile, l'Argentina o en llocs més propers com Londres, París o Brussel·les.  
+### Qui cosa són los Castells ?
+Los Castells són torres humanes aixecades i desmuntades d'un grup de persones dits Castellers.  
 
-No és aquesta una activitat qualsevol, ja que transmet uns valors de solidaritat, d'esforç individual i col·lectiu i especialment d'integració que permeten que formin part de les colles tant persones que han viscut tota la vida en un poble o ciutat, com persones vingudes de la immigració d'altres regions o països, en perfecta harmonia.
+Fer castells és una tradició catalana nada més de 300 anys fa que, especialment en els últims decennis, ha tengut un gran retorn de popularitat. Al dia d’avui al món hi ha circa 100 colles castelleres entre Catalunya i altros llocs, com la Xina, Austràlia, Xile, Londres, París, Brussel·les, Edimburg...  
 
-En la majoria dels casos, són famílies senceres i persones de totes les edats, des de nens petits fins a gent gran, les que formen part de cada colla.  
+Fer castells no és una activitat qualsiasi. A dins de les colles transmetim valors de solidaritat, d'esforç individual i col·lectiu i especialment d'integració que permeten en el mateix grup puguin conviure, animats de l’objectiu comú, persones de proveniença, edat i cultura diferent.  
 
-Forman parte de la Colla personas de distintas edades, sexo y orígenes aplicando los valores del mundo casteller: Força, Equilibri, Valor i Seny.
+En la majoria dels casos, són famílies i persones de totes les edats, a partir de  les criatures petites fins a la gent més gran, les que formen part de cada colla.
+
+A l'Alguer, l'activitat castellera s'uneix amb la voluntat de mantenir viva la nostra parlada.  
+
+L'Alguer és l'única ciutat catalanoparlant de Sardenya i d'Itàlia i los Mataresos volen protegir donar un futur a aqueixa llengua, un tresor que se parla i se conserva aquí del XIV sècul.  
+
+Per això, qui entra als Mataresos s'empenya a parlar (o a emparar, amb l'ajut dels altros companyons castellers) l'alguerés, que és la llengua oficial i vehicular de la colla. 

@@ -19,21 +19,38 @@
                 class="md:col-start-5 order-1 md:order-2 justify-self-center"
             >
             
-            <UiButton
-                as="a"
-                href="https://www.instagram.com/mataresosalguer/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="md:col-start-7 md:col-span-2 flex justify-center md:justify-start pt-6 gap-3 bg-transparent border-none p-0 order-3"
-            >
-                <UIcon
-                    name="mdi:instagram"
-                    class="size-8 text-white hover:text-gray-300 transition-colors duration-300"
-                />
+          <div class="md:col-start-7 md:col-span-2 order-3 flex flex-col gap-y-3 mt-6">
+                <UButton
+                    to="https://www.instagram.com/mataresosalguer/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex justify-center md:justify-start gap-3 bg-transparent hover:bg-transparent hover:opacity-100 border-none p-0 cursor-pointer"
+                >
+                    <UIcon
+                        name="mdi:instagram"
+                        class="size-8 text-white hover:text-gray-300 transition-colors duration-300"
+                    />
 
-                @mataresosalguer
+                    @mataresosalguer
 
-            </UiButton>
+                </UButton>
+
+                 <UButton
+
+                    to="https://www.facebook.com/profile.php?id=61567082295722"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex justify-center md:justify-start pt-2 gap-3 bg-transparent hover:bg-transparent hover:opacity-100 border-none p-0 cursor-pointer"
+                >
+                    <UIcon
+                        name="mdi:facebook"
+                        class="size-8 text-white hover:text-gray-300 transition-colors duration-300"
+                    />
+
+                    @mataresosalguer
+
+                </UButton>
+          </div>
         </section>
         </div>
     </footer>

@@ -4,7 +4,7 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  images: () => [ 'cuatre.jpg', 'pd4.jpg', 'piNa.jpg', 'sulis.jpg','canalla.jpg']
+  images: () => [ 'sanMiquel2025.jpg', 'pd4.jpg', 'piNa.jpg', 'sulis.jpg','canalla.jpg']
 })
 
 const basePath = '/img/gallery/'

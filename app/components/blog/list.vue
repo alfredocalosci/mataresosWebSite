@@ -4,7 +4,7 @@
 
   const blogCollection = computed(() => `blog_${locale.value}` as 'blog_ca' | 'blog_it')
   const { data: posts } = await useAsyncData(
-    'blog',
+    `blog-${locale.value}`,
     () => queryCollection(blogCollection.value).all(),
     { watch: [blogCollection] }
   )

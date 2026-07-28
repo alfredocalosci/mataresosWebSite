@@ -22,7 +22,7 @@
     const { data: castells } = await useAsyncData('castells', () => queryCollection(webCollection.value).where('section', '=', 'castells').order('order', 'ASC').all());
     */
 
-    const { data: castells } = await useAsyncData('castells', () => {
+    const { data: castells } = await useAsyncData(`castells-${locale.value}`, () => {
         const content = queryCollection(webCollection.value).where('section', '=', 'castells').order('order', 'ASC').all();
         return content;
     }, {watch: [webCollection]});

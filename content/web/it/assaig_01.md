@@ -6,4 +6,13 @@ order: 2
 ---
 
 
-###### Sospendiamo le prove durante l'estate, ma torneremo con più energia a settembre! Seguici sui social per non perderti la data di ripresa.
+Durante l’estate non svolgiamo allenamenti. Riprenderemo la preparazione alla fine di agosto.
+
+###### Segui i nostri canali social, Facebook e Instagram, per non perdere gli aggiornamenti.
+
+<br/>
+
+###### Orario delle prove: ogni lunedì, dalle 20:00 alle 21:30; Luogo: palestra del Liceo Scientifico, Via XX Settembre 229, Alghero.
+
+
+
