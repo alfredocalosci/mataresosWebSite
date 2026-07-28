@@ -5,7 +5,7 @@
 
           <!-- assaig oberts -->
           <article class="col-start-1 col-span-1 md:col-start-2 md:col-span-2 py-6">
-              <ContentRenderer v-if="assaig[0]" :value="assaig[0]" prose:false class="mdtxt" />
+              <ContentRenderer v-if="assaig?.[0]" :value="assaig[0]" prose:false class="mdtxt" />
           </article>
 
          
@@ -17,7 +17,7 @@
 
            <!-- assaig lloc -->
           <article class="md:col-start-7 md:col-span-2 md:pt-6 md:text-right">
-              <ContentRenderer v-if="assaig[1]" :value="assaig[1]" prose:false class="mdtxt" />
+              <ContentRenderer v-if="assaig?.[1]" :value="assaig[1]" prose:false class="mdtxt" />
           </article>
         </section>
       </div>

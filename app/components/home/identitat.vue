@@ -12,7 +12,7 @@
   
           </NuxtLink>
           <article class="md:col-span-6 lg:col-span-2">
-            <ContentRenderer v-if="home[0]" :value="home[0]" prose:false class="mdtxt" />
+            <ContentRenderer v-if="home?.[0]" :value="home[0]" prose:false class="mdtxt" />
           </article>
 
           <img
@@ -21,7 +21,7 @@
           >
 
           <article class="md:col-span-6 lg:col-span-2 lg:col-start-7">
-            <ContentRenderer v-if="home[1]" :value="home[1]" prose:false class="mdtxt" />
+            <ContentRenderer v-if="home?.[1]" :value="home[1]" prose:false class="mdtxt" />
           </article>
 
         </section>

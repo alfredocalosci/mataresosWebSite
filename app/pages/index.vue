@@ -50,7 +50,7 @@
 
   // descriptions for ca and it locales
   const descriptions = {
-    ca: 'fem castells y parlem en alguerés',
+    ca: 'fem castells i parlem en alguerés',
     it: 'facciamo castelli e parliamo in algherese'
   }
 
